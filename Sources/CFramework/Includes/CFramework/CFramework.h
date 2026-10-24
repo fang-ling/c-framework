@@ -1,11 +1,11 @@
 /*===----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------===*
  *
- *  CKit.h
- *  c-kit
+ *  CFramework.h
+ *  c-framework
  *
  *  Created by Fang Ling on 2026/4/25.
  *
- *  This source file is part of the CKit open source project
+ *  This source file is part of the CFramework open source project
  *
  *  Copyright (c) 2026 Fang Ling <fangling@fangl.ing>
  *  Licensed under Apache License v2.0
@@ -16,16 +16,14 @@
  *
  *===----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------===*/
 
-#ifndef CKit_h
-#define CKit_h
+#ifndef C_FRAMEWORK_H
+#define C_FRAMEWORK_H
 
-#include "../../CArgument.h"
-#include "../../CAtomicity.h"
-#include "../../CBase.h"
-#include "../../CDebugging.h"
-#include "../../CIO.h"
-#include "../../CMemory.h"
-#include "../../CNumber.h"
-#include "../../CString.h"
+#define let __auto_type
 
-#endif /* CKit_h */
+#define C_ASSUME_NONNULL_BEGIN _Pragma("clang assume_nonnull begin")
+#define C_ASSUME_NONNULL_END   _Pragma("clang assume_nonnull end")
+
+#define nonnil _Nonnull
+
+#endif

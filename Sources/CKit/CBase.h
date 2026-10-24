@@ -20,11 +20,6 @@
 #ifndef CBase_h
 #define CBase_h
 
-#define C_ASSUME_NONNULL_BEGIN _Pragma("clang assume_nonnull begin")
-#define C_ASSUME_NONNULL_END   _Pragma("clang assume_nonnull end")
-
-#define let      __auto_type
-#define nonnil   _Nonnull
 #define nillable _Nullable
 
 #define null (void*)0
