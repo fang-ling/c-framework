@@ -26,7 +26,14 @@
 #include <stdbool.h>
 
 /**
- * A value type whose instances are either `yes` or `no`.
+ * A value type whose instances are either ``yes-macro`` or ``no-macro``.
+ *
+ * ## Topics
+ *
+ * ### Constants
+ *
+ * - ``yes-macro``
+ * - ``no-macro``
  */
 typedef bool CBoolean;
 
