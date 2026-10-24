@@ -22,6 +22,7 @@
 #include <CFramework/CBoolean.h>
 #include <CFramework/CTargetConditionals.h>
 #include <CFramework/CUnsignedInteger.h>
+#include <CFramework/CUnsignedInteger32.h>
 
 #if !C_TARGET_COMPILER_ASSEMBLY
 
