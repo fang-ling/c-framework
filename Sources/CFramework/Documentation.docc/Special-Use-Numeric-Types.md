@@ -7,3 +7,4 @@ Work with fixed-width numeric types of different sizes.
 ### Unsigned Integers
 
 - ``CUnsignedInteger``
+- ``CUnsignedInteger32``
