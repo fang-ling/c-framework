@@ -74,14 +74,6 @@ typedef uint64_t CUnsignedInteger64;
 typedef long CInteger;
 
 /**
- * An unsigned integer value type.
- *
- * When building 32-bit applications, `CUnsignedInteger` is a 32-bit unsigned integer.
- * A 64-bit application treats `CUnsignedInteger` as a 64-bit unsigned integer.
- */
-typedef unsigned long CUnsignedInteger;
-
-/**
  * A 32-bit floating point type.
  */
 typedef float CFloatingPoint32;
