@@ -23,6 +23,12 @@
 #include <CFramework/CTargetConditionals.h>
 #include <CFramework/CUnsignedInteger.h>
 
+#if !C_TARGET_COMPILER_ASSEMBLY
+
+#include <stddef.h>
+
+#endif
+
 #define let __auto_type
 
 #define C_ASSUME_NONNULL_BEGIN _Pragma("clang assume_nonnull begin")
