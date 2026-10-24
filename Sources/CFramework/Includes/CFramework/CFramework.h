@@ -35,5 +35,6 @@
 #define C_ASSUME_NONNULL_END   _Pragma("clang assume_nonnull end")
 
 #define nonnil _Nonnull
+#define nillable _Nullable
 
 #endif

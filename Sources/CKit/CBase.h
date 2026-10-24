@@ -20,8 +20,6 @@
 #ifndef CBase_h
 #define CBase_h
 
-#define nillable _Nullable
-
 #define null (void*)0
 
 #define C_INITIALIZER __attribute__((constructor))
