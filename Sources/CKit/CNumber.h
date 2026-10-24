@@ -25,15 +25,6 @@
 
 C_ASSUME_NONNULL_BEGIN
 
-#define yes 1
-
-#define no 0
-
-/**
- * A value type whose instances are either `yes` or `no`.
- */
-typedef _Bool CBoolean;
-
 /**
  * A 8-bit signed integer value type.
  */

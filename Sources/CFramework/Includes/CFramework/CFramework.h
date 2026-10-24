@@ -19,6 +19,7 @@
 #ifndef C_FRAMEWORK_H
 #define C_FRAMEWORK_H
 
+#include <CFramework/CBoolean.h>
 #include <CFramework/CTargetConditionals.h>
 
 #define let __auto_type
