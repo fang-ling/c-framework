@@ -21,6 +21,7 @@
 
 #include <CFramework/CBoolean.h>
 #include <CFramework/CTargetConditionals.h>
+#include <CFramework/CUnsignedInteger.h>
 
 #define let __auto_type
 

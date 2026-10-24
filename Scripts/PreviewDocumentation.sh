@@ -21,12 +21,14 @@
 SYMBOLS_FOLDER="/dev/shm/symbol-graphs"
 OUTPUT_FOLDER="/dev/shm/docc"
 
-clang                                                             \
-    -extract-api                                                  \
-    --product-name=CFramework                                     \
-    -o $SYMBOLS_FOLDER/CFramework.symbols.json                    \
-    -x c-header Sources/CFramework/Includes/CFramework/CBoolean.h \
-    -ISources/CFramework/Includes                                 \
+clang                                                         \
+    -extract-api                                              \
+    --product-name=CFramework                                 \
+    -o $SYMBOLS_FOLDER/CFramework.symbols.json                \
+    -x c-header                                               \
+    Sources/CFramework/Includes/CFramework/CBoolean.h         \
+    Sources/CFramework/Includes/CFramework/CUnsignedInteger.h \
+    -ISources/CFramework/Includes                             \
     -I.
 
 docc convert Sources/CFramework/Documentation.docc -o $OUTPUT_FOLDER --additional-symbol-graph-dir $SYMBOLS_FOLDER
