@@ -25,15 +25,6 @@
 
 C_ASSUME_NONNULL_BEGIN
 
-#define yes 1
-
-#define no 0
-
-/**
- * A value type whose instances are either `yes` or `no`.
- */
-typedef _Bool CBoolean;
-
 /**
  * A 8-bit signed integer value type.
  */
@@ -60,11 +51,6 @@ typedef uint16_t CUnsignedInteger16;
 typedef int32_t CInteger32;
 
 /**
- * A 32-bit unsigned integer value type.
- */
-typedef uint32_t CUnsignedInteger32;
-
-/**
  * A 64-bit signed integer value type.
  */
 typedef int64_t CInteger64;
@@ -73,22 +59,6 @@ typedef int64_t CInteger64;
  * A 64-bit unsigned integer value type.
  */
 typedef uint64_t CUnsignedInteger64;
-
-/**
- * A signed integer value type.
- *
- * When building 32-bit applications, `CInteger` is a 32-bit integer.
- * A 64-bit application treats `CInteger` as a 64-bit integer.
- */
-typedef long CInteger;
-
-/**
- * An unsigned integer value type.
- *
- * When building 32-bit applications, `CUnsignedInteger` is a 32-bit unsigned integer.
- * A 64-bit application treats `CUnsignedInteger` as a 64-bit unsigned integer.
- */
-typedef unsigned long CUnsignedInteger;
 
 /**
  * A 32-bit floating point type.

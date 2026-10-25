@@ -1,11 +1,11 @@
 /*===----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------===*
  *
- *  CKit.h
- *  c-kit
+ *  CBoolean.h
+ *  c-framework
  *
- *  Created by Fang Ling on 2026/4/25.
+ *  Created by Fang Ling on 2026/10/24.
  *
- *  This source file is part of the CKit open source project
+ *  This source file is part of the CFramework open source project
  *
  *  Copyright (c) 2026 Fang Ling <fangling@fangl.ing>
  *  Licensed under Apache License v2.0
@@ -16,16 +16,30 @@
  *
  *===----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------===*/
 
-#ifndef CKit_h
-#define CKit_h
+#ifndef C_BOOLEAN_H
+#define C_BOOLEAN_H
 
-#include "../../CArgument.h"
-#include "../../CAtomicity.h"
-#include "../../CBase.h"
-#include "../../CDebugging.h"
-#include "../../CIO.h"
-#include "../../CMemory.h"
-#include "../../CNumber.h"
-#include "../../CString.h"
+#include <CFramework/CTargetConditionals.h>
 
-#endif /* CKit_h */
+#if !C_TARGET_COMPILER_ASSEMBLY
+
+#include <stdbool.h>
+
+/**
+ * A value type whose instances are either ``yes-macro`` or ``no-macro``.
+ *
+ * ## Topics
+ *
+ * ### Constants
+ *
+ * - ``yes-macro``
+ * - ``no-macro``
+ */
+typedef bool CBoolean;
+
+#define yes 1
+#define no 0
+
+#endif
+
+#endif

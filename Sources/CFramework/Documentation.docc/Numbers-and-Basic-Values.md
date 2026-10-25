@@ -6,15 +6,16 @@ Model data with numbers, Boolean values, and other fundamental types.
 
 ### Logical Values
 
-- ``CBoolean``
+- ``CFramework/CBoolean``
 
 ### Numeric Values
 
-- ``CInteger``
-- ``CUnsignedInteger``
-- ``CFloatingPoint``
+- ``CFramework/CInteger``
+
+### Null Values
+
+- ``CFramework/null-macro``
 
 ### Advanced Numerics
 
 - <doc:Special-Use-Numeric-Types>
-- <doc:Global-Numeric-Functions>

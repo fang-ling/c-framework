@@ -27,11 +27,6 @@
 
 C_ASSUME_NONNULL_BEGIN
 
-/**
- * A null-terminated sequence of UTF-8 code units.
- */
-typedef const char* CString;
-
 #define CStringGetCount strlen
 
 #define CStringInitializeWithFormat sprintf
