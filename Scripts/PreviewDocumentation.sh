@@ -27,6 +27,7 @@ clang                                                           \
     -o $SYMBOLS_FOLDER/CFramework.symbols.json                  \
     -x c-header                                                 \
     Sources/CFramework/Includes/CFramework/CBoolean.h           \
+    Sources/CFramework/Includes/CFramework/CString.h            \
     Sources/CFramework/Includes/CFramework/CUnsignedInteger.h   \
     Sources/CFramework/Includes/CFramework/CUnsignedInteger32.h \
     -ISources/CFramework/Includes                               \

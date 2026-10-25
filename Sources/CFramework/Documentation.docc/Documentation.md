@@ -11,3 +11,4 @@ The CFramework defines a base layer of functionality for writing C programs.
 ### Values and Collections
 
 - <doc:Numbers-and-Basic-Values>
+- <doc:Strings-and-Text>

@@ -7,5 +7,3 @@ Work with text using Unicode-safe strings.
 ### Strings and Characters
 
 - ``CString``
-- ``CStringConvertUTF8CharactersToUTF32Characters``
-- ``CStringConvertUTF32CharactersToUTF8Characters``
