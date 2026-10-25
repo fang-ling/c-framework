@@ -61,14 +61,6 @@ typedef int64_t CInteger64;
 typedef uint64_t CUnsignedInteger64;
 
 /**
- * A signed integer value type.
- *
- * When building 32-bit applications, `CInteger` is a 32-bit integer.
- * A 64-bit application treats `CInteger` as a 64-bit integer.
- */
-typedef long CInteger;
-
-/**
  * A 32-bit floating point type.
  */
 typedef float CFloatingPoint32;

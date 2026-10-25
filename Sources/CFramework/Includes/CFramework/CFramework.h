@@ -20,6 +20,7 @@
 #define C_FRAMEWORK_H
 
 #include <CFramework/CBoolean.h>
+#include <CFramework/CInteger.h>
 #include <CFramework/CString.h>
 #include <CFramework/CTargetConditionals.h>
 #include <CFramework/CUnsignedInteger.h>
