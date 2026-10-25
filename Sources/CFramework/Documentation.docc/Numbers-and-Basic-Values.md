@@ -12,6 +12,10 @@ Model data with numbers, Boolean values, and other fundamental types.
 
 - ``CFramework/CInteger``
 
+### Null Values
+
+- ``CFramework/null-macro``
+
 ### Advanced Numerics
 
 - <doc:Special-Use-Numeric-Types>
