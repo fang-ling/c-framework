@@ -1,3 +1,3 @@
-# ``yes-macro``
+# ``CFramework/yes-macro``
 
-Defines ``yes-macro`` as `1`.
+Defines ``CFramework/yes-macro`` as `1`.

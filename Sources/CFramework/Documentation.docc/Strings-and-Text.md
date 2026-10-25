@@ -6,4 +6,4 @@ Work with text using Unicode-safe strings.
 
 ### Strings and Characters
 
-- ``CString``
+- ``CFramework/CString``

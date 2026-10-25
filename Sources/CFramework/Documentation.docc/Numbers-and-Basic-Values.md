@@ -6,7 +6,11 @@ Model data with numbers, Boolean values, and other fundamental types.
 
 ### Logical Values
 
-- ``CBoolean``
+- ``CFramework/CBoolean``
+
+### Numeric Values
+
+- ``CFramework/CInteger``
 
 ### Advanced Numerics
 

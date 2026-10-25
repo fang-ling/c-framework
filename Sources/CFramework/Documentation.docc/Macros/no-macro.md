@@ -1,3 +1,3 @@
-# ``no-macro``
+# ``CFramework/no-macro``
 
-Defines ``no-macro`` as `0`.
+Defines ``CFramework/no-macro`` as `0`.
