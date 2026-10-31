@@ -51,7 +51,7 @@ else
 
   echo "========================================"
   echo "Starting Local Preview Server"
-  echo "    Address: http://"$(ip route get 1.1.1.1 | grep -oP '(?<=src\s)\d+(\.\d+){3}')"/documentation/nioframework"
+  echo "    Address: http://"$(ip route get 1.1.1.1 | grep -oP '(?<=src\s)\d+(\.\d+){3}')"/documentation/cframework"
   echo "========================================"
 
   python3 -m http.server 80 --directory $OUTPUT_FOLDER
