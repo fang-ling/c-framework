@@ -29,6 +29,7 @@ FRAMEWORK_NAME="CFramework"
 HEADERS=(
   Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/CBoolean.h
   Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/CInteger.h
+  Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/CInteger64.h
   Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/CNull.h
   Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/CString.h
   Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/CUnsignedInteger.h
