@@ -19,8 +19,10 @@
 #ifndef C_FRAMEWORK_H
 #define C_FRAMEWORK_H
 
+#include <CFramework/CBase.h>
 #include <CFramework/CBoolean.h>
 #include <CFramework/CInteger.h>
+#include <CFramework/CInteger64.h>
 #include <CFramework/CNull.h>
 #include <CFramework/CString.h>
 #include <CFramework/CTargetConditionals.h>
