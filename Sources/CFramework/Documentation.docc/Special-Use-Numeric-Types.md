@@ -8,3 +8,7 @@ Work with fixed-width numeric types of different sizes.
 
 - ``CFramework/CUnsignedInteger``
 - ``CFramework/CUnsignedInteger32``
+
+### Signed Integers
+
+- ``CFramework/CInteger64``

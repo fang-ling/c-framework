@@ -19,20 +19,14 @@
 #ifndef C_FRAMEWORK_H
 #define C_FRAMEWORK_H
 
+#include <CFramework/CBase.h>
 #include <CFramework/CBoolean.h>
 #include <CFramework/CInteger.h>
+#include <CFramework/CInteger64.h>
 #include <CFramework/CNull.h>
 #include <CFramework/CString.h>
 #include <CFramework/CTargetConditionals.h>
 #include <CFramework/CUnsignedInteger.h>
 #include <CFramework/CUnsignedInteger32.h>
-
-#define let __auto_type
-
-#define C_ASSUME_NONNULL_BEGIN _Pragma("clang assume_nonnull begin")
-#define C_ASSUME_NONNULL_END   _Pragma("clang assume_nonnull end")
-
-#define nonnil _Nonnull
-#define nillable _Nullable
 
 #endif
