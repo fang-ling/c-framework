@@ -29,4 +29,6 @@
 #include <CFramework/CUnsignedInteger.h>
 #include <CFramework/CUnsignedInteger32.h>
 
+#include <CFramework/NumbersAndBasicValues/AdvancedNumerics/SpecialUseNumericTypes/CInteger32.h>
+
 #endif

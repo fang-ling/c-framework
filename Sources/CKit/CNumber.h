@@ -46,11 +46,6 @@ typedef int16_t CInteger16;
 typedef uint16_t CUnsignedInteger16;
 
 /**
- * A 32-bit signed integer value type.
- */
-typedef int32_t CInteger32;
-
-/**
  * A 64-bit unsigned integer value type.
  */
 typedef uint64_t CUnsignedInteger64;
