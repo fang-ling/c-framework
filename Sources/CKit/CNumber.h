@@ -26,11 +26,6 @@
 C_ASSUME_NONNULL_BEGIN
 
 /**
- * A 8-bit signed integer value type.
- */
-typedef char CInteger8;
-
-/**
  * A 8-bit unsigned integer value type.
  */
 typedef uint8_t CUnsignedInteger8;
