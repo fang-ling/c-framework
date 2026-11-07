@@ -11,4 +11,5 @@ Work with fixed-width numeric types of different sizes.
 
 ### Signed Integers
 
+- ``CFramework/CInteger32``
 - ``CFramework/CInteger64``
