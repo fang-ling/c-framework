@@ -29,4 +29,7 @@
 #include <CFramework/CUnsignedInteger.h>
 #include <CFramework/CUnsignedInteger32.h>
 
+#include <CFramework/ValuesAndCollections/NumbersAndBasicValues/AdvancedNumerics/SpecialUseNumericTypes/SignedIntegers/CInteger32.h>
+#include <CFramework/ValuesAndCollections/NumbersAndBasicValues/AdvancedNumerics/SpecialUseNumericTypes/SignedIntegers/CInteger8.h>
+
 #endif

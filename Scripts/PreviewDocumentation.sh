@@ -34,6 +34,8 @@ HEADERS=(
   Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/CString.h
   Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/CUnsignedInteger.h
   Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/CUnsignedInteger32.h
+  Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/ValuesAndCollections/NumbersAndBasicValues/AdvancedNumerics/SpecialUseNumericTypes/SignedIntegers/CInteger32.h
+  Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/ValuesAndCollections/NumbersAndBasicValues/AdvancedNumerics/SpecialUseNumericTypes/SignedIntegers/CInteger8.h
 )
 
 clang                                               \
