@@ -1,9 +1,9 @@
 /*===----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------===*
  *
- *  CBoolean.h
+ *  CNAUGHT.h
  *  c-framework
  *
- *  Created by Fang Ling on 2026/10/24.
+ *  Created by Fang Ling on 2026/10/25.
  *
  *  This source file is part of the CFramework open source project
  *
@@ -16,29 +16,16 @@
  *
  *===----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------===*/
 
-#ifndef C_BOOLEAN_H
-#define C_BOOLEAN_H
+#ifndef C_NAUGHT_H
+#define C_NAUGHT_H
 
 #include <CFramework/CTargetConditionals.h>
 
 #if !C_TARGET_COMPILER_ASSEMBLY
 
-#include <stdbool.h>
+#include <stddef.h>
 
-/**
- * A value type whose instances are either ``yes-macro`` or ``no-macro``.
- *
- * ## Topics
- *
- * ### Constants
- *
- * - ``yes-macro``
- * - ``no-macro``
- */
-typedef bool CBoolean;
-
-#define yes 1
-#define no 0
+#define NAUGHT NULL
 
 #endif
 

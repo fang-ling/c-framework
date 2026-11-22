@@ -1,9 +1,9 @@
 /*===----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------===*
  *
- *  CNull.h
+ *  CBoolean.h
  *  c-framework
  *
- *  Created by Fang Ling on 2026/10/25.
+ *  Created by Fang Ling on 2026/10/24.
  *
  *  This source file is part of the CFramework open source project
  *
@@ -16,16 +16,38 @@
  *
  *===----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------===*/
 
-#ifndef C_NULL_H
-#define C_NULL_H
+#ifndef C_BOOLEAN_H
+#define C_BOOLEAN_H
 
 #include <CFramework/CTargetConditionals.h>
 
 #if !C_TARGET_COMPILER_ASSEMBLY
 
-#include <stddef.h>
+#include <stdbool.h>
 
-#define null NULL
+/**
+ * A value type whose instances are either ``yes-macro`` or ``no-macro``.
+ *
+ * ## Topics
+ *
+ * ### Constants
+ *
+ * - ``yes-macro``
+ * - ``no-macro``
+ */
+typedef bool CBoolean;
+
+#if C_TARGET_COMPILER_OBJECTIVE_C
+
+#define yes __objc_yes
+#define no __objc_no
+
+#else
+
+#define yes 1
+#define no 0
+
+#endif
 
 #endif
 

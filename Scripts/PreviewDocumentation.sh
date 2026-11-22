@@ -27,15 +27,15 @@ DOCC=$([[ "$(uname -s)" == "Darwin" ]] && echo "xcrun docc" || echo "docc")
 
 FRAMEWORK_NAME="CFramework"
 HEADERS=(
-  Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/CBoolean.h
   Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/CInteger.h
   Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/CInteger64.h
-  Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/CNull.h
   Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/CString.h
   Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/CUnsignedInteger.h
   Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/CUnsignedInteger32.h
   Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/ValuesAndCollections/NumbersAndBasicValues/AdvancedNumerics/SpecialUseNumericTypes/SignedIntegers/CInteger32.h
   Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/ValuesAndCollections/NumbersAndBasicValues/AdvancedNumerics/SpecialUseNumericTypes/SignedIntegers/CInteger8.h
+  Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/ValuesAndCollections/NumbersAndBasicValues/LogicalValues/CBoolean.h
+  Sources/$FRAMEWORK_NAME/Includes/$FRAMEWORK_NAME/ValuesAndCollections/NumbersAndBasicValues/NullValues/CNAUGHT.h
 )
 
 clang                                               \
