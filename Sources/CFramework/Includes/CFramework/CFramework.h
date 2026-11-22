@@ -20,7 +20,6 @@
 #define C_FRAMEWORK_H
 
 #include <CFramework/CBase.h>
-#include <CFramework/CBoolean.h>
 #include <CFramework/CInteger.h>
 #include <CFramework/CInteger64.h>
 #include <CFramework/CString.h>
@@ -30,6 +29,7 @@
 
 #include <CFramework/ValuesAndCollections/NumbersAndBasicValues/AdvancedNumerics/SpecialUseNumericTypes/SignedIntegers/CInteger32.h>
 #include <CFramework/ValuesAndCollections/NumbersAndBasicValues/AdvancedNumerics/SpecialUseNumericTypes/SignedIntegers/CInteger8.h>
+#include <CFramework/ValuesAndCollections/NumbersAndBasicValues/LogicalValues/CBoolean.h>
 #include <CFramework/ValuesAndCollections/NumbersAndBasicValues/NullValues/CNAUGHT.h>
 
 #endif

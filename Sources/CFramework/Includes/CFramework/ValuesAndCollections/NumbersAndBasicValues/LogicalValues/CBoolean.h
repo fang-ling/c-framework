@@ -37,8 +37,17 @@
  */
 typedef bool CBoolean;
 
+#if C_TARGET_COMPILER_OBJECTIVE_C
+
+#define yes __objc_yes
+#define no __objc_no
+
+#else
+
 #define yes 1
 #define no 0
+
+#endif
 
 #endif
 
