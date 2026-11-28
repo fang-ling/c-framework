@@ -21,12 +21,18 @@
 
 #define let __auto_type
 
-#define C_ASSUME_NONNULL_BEGIN _Pragma("clang assume_nonnull begin")
-#define C_ASSUME_NONNULL_END   _Pragma("clang assume_nonnull end")
+#define __C_PRAGMA(x) _Pragma(#x)
+
+#define C_ASSUME_NONNULL_BEGIN __C_PRAGMA(clang assume_nonnull begin)
+#define C_ASSUME_NONNULL_END   __C_PRAGMA(clang assume_nonnull end)
 
 #define nonnil _Nonnull
 #define nillable _Nullable
 
 #define C_INLINE static __inline__ __attribute__((always_inline))
+
+#define C_IGNORE_DIAGNOSTIC_BEGIN    __C_PRAGMA(clang diagnostic push)
+#define C_IGNORE_DIAGNOSTIC(warning) __C_PRAGMA(clang diagnostic ignored warning)
+#define C_IGNORE_DIAGNOSTIC_END      __C_PRAGMA(clang diagnostic pop)
 
 #endif
